@@ -41,7 +41,8 @@ Navigate to dapp folder and run these commands<br/>
       "startall": "run-p nodeserver start"
      }
   ```
-  The React app will be hosted on http://localhost:3000/ and node-express on http://locahost:8000/ (it is used to store the uploaded image in the local drive)<br/>
+  The React app will be hosted on http://localhost:3000/ and node-express on http://locahost:8000/ (it is used to store the uploaded image in the local drive).<br/>
+  
   
   Thank you for your time.
 

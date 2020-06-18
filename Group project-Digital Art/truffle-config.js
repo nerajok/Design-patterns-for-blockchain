@@ -27,7 +27,7 @@ const path = require("path");
 
 module.exports = {
   //contracts_build_directory: "./dapp/src/abi",
-  contracts_build_directory: path.join("./dapp/src/abi"),
+  contracts_build_directory: path.join(__dirname, "./dapp/src/abi"),
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle
