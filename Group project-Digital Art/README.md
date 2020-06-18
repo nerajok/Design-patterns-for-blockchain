@@ -71,9 +71,15 @@ This smart contract is a token that allows users to securely buy into and bid on
 
 ---
 
-## Architecture 
+### Architecture
 
-![](./notes/arch.jpeg)
+![](./notes/architecture.jpg)
+
+The web app is built with reactJS and web3 while the backend is built using NodeJS and Express.The smart contract is deployed using Truffle and Ganache.The smart contract functionalities have been tested using truffle suite. The generated abi is stored in the backend. ReactJS uses the abi from backend to interact with the smart contract. Web3 module is used in the react app to call the functionalities of the smart contract.
+
+![](./notes/dAppArch.png)
+
+The above figure shows the techstack visual representation of the project.The frontend uses ReactJS along with HTML and CSS for building the app and web3 for interacting with the smart contract functionalities. Next phase would be the Ethereum wallets such as Metamask and MyEtherWallet. A Metamask browser extension is highly recommended for using this app. The smart contract is tested compatible to be deployable in most of the test nets some prominent ones being Ropsten and Rinkby. The entire app was built and tested using the local blockchain.
 
 ---
 
@@ -107,25 +113,23 @@ This smart contract is a token that allows users to securely buy into and bid on
 
 ### Flowchart
 
-![](./notes/flow.jpeg)
+
+![](./notes/flowdiagram.jpg)
 
 ---
 
-#### State Diagram
+### State Diagram
 
-![](./notes/state.jpeg)
 
----
-
-### Type of dApp Architecture
-
-![](./notes/dAppArch.png)
+![](./notes/statemachine.jpg)
 
 ---
 
 ### Project Plan
 
-![](./notes/ProjectPlan.png)
+![](./notes/ProjectPlan_1.png)
+
+![](./notes/ProjectPlan2.png)
 
 ---
 
